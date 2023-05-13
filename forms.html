@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>forms</title>
 </head>
-<body>
-    
-    <input type="button">
-    <input type="checkbox">
-    <input type="color">
-    <input type="date">
-    <input type="datetime-local">
-    <input type="email">
-    <input type="file">
-    <input type="hidden">
-    <input type="image">
-    <input type="month">
-    <input type="number">
-    <input type="password">
-    <input type="radio">
-    <input type="range">
-    <input type="reset">
-    <input type="search">
-    <input type="submit">
-    <input type="tel">
-    <input type="text">
-    <input type="time">
-    <input type="url">
-    <input type="week">
 
+<body>
+    <a href="./index.html">Pagina 1</a>
+    <a href="./pagina2.html">Pagina 2</a>
+    <a href="./pagina3.html">Pagina 3</a>
+    <a href="./pagina4.html">Pagina 4</a>
+    <a href="./pagina5.html">Pagina 5</a>
+    <a href="./pagina6.html">Pagina 6</a>
+    <a href="./forms.html">Formulário</a>
+    <a href="./ancora.html">Ancora</a>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="info">Info</label>
+        <input type="checkbox" name="curso[]" id="info" value="info"><br>
+        <label for="edif">Edif</label>
+        <input type="checkbox" name="curso[]" id="edif" value="edif"><br>
+        <label for="meca">Meca</label>
+        <input type="checkbox" name="curso[]" id="meca" value="meca"><br>
+
+        Cor<br>
+        <input type="color" name="cor"><br>
+        Data<br>
+        <input type="date" name="data"><br>
+        Data & Tempo<br>
+        <input type="datetime-local" name="datahora"><br>
+        Email<br>
+        <input type="email" name="email"><br>
+
+        Arquivo<br>
+        <input type="file" name="arquivo"><br>
+        Escondido<br>
+        <input type="hidden" name="id" value="1"><br>
+        Mês<br>
+        <input type="month" name="mes"><br>
+        Número<br>
+        <input type="number" name="numero"><br>
+        Senha
+        <input type="password" name="senha"><br>
+
+        <label for="um">1º ano</label>
+        <input type="radio" name="ano" value="1" id="um"><br><br>
+
+        <label for="dois">2º ano</label>
+        <input type="radio" name="ano" value="2" id="dois"><br><br>
+
+        <label for="tres">3º ano</label>
+        <input type="radio" name="ano" value="13" id="tres"><br><br>
+
+        Barra <br>
+        <input type="range" name="barra"><br>
+        Busca <br>
+        <input type="search" name="busca"><br>
+        Telefone<br>
+        <input type="tel" name="telefone"><br>
+        Texto <br>
+        <input type="text" name="nome"><br>
+        Hora <br>
+        <input type="time" name="hora"><br>
+        Link <br>
+        <input type="url" name="site"><br>
+        Semana <br>
+        <input type="week" name="semana"><br>
+        <button type="submit">Envia aqui</button>
+        <button type="reset">Limpe aqui</button>
+    </form>
 </body>
+
 </html>
